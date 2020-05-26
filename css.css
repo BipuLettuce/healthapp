@@ -1,0 +1,177 @@
+body{
+    background-color:#0066ff;
+    color:white;
+    margin-top:0px;
+    padding-top:0px;
+    padding-left:0px;
+    padding-right:0px;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.block {
+    background-color:#272727;
+    color:white;
+   
+    padding:5px;
+    padding-top:10px;
+    padding-left:15x;
+    padding-right:10px;
+
+    box-shadow: 0px 0px 16px -5px #0f0f0f;
+
+    
+}
+.progressbar {
+    background-color:#272727;
+    color:#272727;
+    border-radius:5px;
+    
+    margin:10px;
+    margin-top:4px;
+    margin-bottom:4px;
+    padding:0px;
+    padding-left:10px;
+    padding-top:1px;
+    padding-bottom:1px;
+    box-shadow: 0px 0px 16px -5px #0f0f0f;
+    transition:0.3s;
+
+}
+.progressbar:hover{
+    height:40px;
+}
+.progressbar p{
+    margin:0px;
+}
+
+#progresscontainer{
+    width:50%;
+}
+
+.red{
+    background-color:#ff5555!important;
+    
+}
+
+.green{
+    background-color:#55ff55!important;
+    
+}
+
+.blue {
+    background-color:#5555ff!important;
+    
+}
+.background{
+
+    margin: 0 auto;
+    padding:10px;
+    background-color:#1d1d1d;
+   /* padding:20px;*/
+    padding-bottom:1000px;
+    /*border-radius:20px;*/
+    
+}
+
+h1{
+    padding:20px;
+    
+    margin-top:0px;
+}
+h2{
+    padding-top:0px;
+    margin-top:0px;
+    margin-left:10px;
+}
+
+.beans {
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+
+  h1{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  body{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #devicecorner{
+      padding:5px;
+      background:#6ba6ff;
+      float:left;
+      margin-top:0px;
+
+  }
+  #devicecorner p{
+    padding:0px;
+    margin:0px;
+  }
+
+  #devicecorner h3{
+    padding:0px;
+    margin:0px;
+  }
+
+  #todaysgoals h3{
+    padding:0px;
+    margin:0px;
+    margin-top:20px;
+  }
+
+  #todaysgoals h1{
+    padding:0px;
+    margin:0px;
+    font-size:64px;
+  }
+
+  #todaysgoals {
+      padding:10px;
+  }
+
+  .collapsible {
+    background-color:#272727;
+    color:white;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    margin:0px;
+   
+    box-shadow: 0px 0px 16px -5px #0f0f0f;
+    
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #272727;
+    margin-bottom:5px;
+  }
+
+  .green-accent {
+
+  }
+
+  .blue-accent{
+
+  }

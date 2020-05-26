@@ -1,0 +1,88 @@
+<!doctype html>
+<head>
+  <link rel="stylesheet" href="css.css">
+  <link rel="script" href="js.js">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <div id="devicecorner">
+        <h3>Smart Shoe</h3>
+        <p>Connected - 87% Battery</p>
+        
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="todaysgoals">
+      <h3>Today's goals</h3>
+      <h1>67%</h1>
+    </div>
+    
+    
+    <div class="background">
+      <button type="button" class="blue collapsible">Steps</button>
+      <div class="content">
+        <p>Lorem ipsum...</p>
+      </div> 
+      <button type="button" class="collapsible block green">Posture</button>
+      <div class="content">
+        <p>Lorem ipsum...</p>
+      </div> 
+      <button type="button" class="collapsible block red">Heart Rate</button>
+      <div class="content">
+        <p>Lorem ipsum...</p>
+      </div> 
+      <button type="button" class="collapsible block">Cooking</button>
+      <div class="content">
+        <p>Lorem ipsum...</p>
+      </div>
+      <br>
+      <br>
+
+
+
+
+      
+        <div class="block">
+            <h2>Goals For Today</h2>
+            <!--<img src="bars.png">-->
+            <div id="progresscontainer">
+                <div class="progressbar red">
+                    <p>100%</p>
+                </div>
+                <div class="progressbar green">
+                    <p>80%</p>
+                </div>
+                <div class="progressbar blue">
+                    <p>50%</p>
+                </div>
+            </div>
+            
+        </div>
+
+
+        
+
+
+        
+    </div>
+</body>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
