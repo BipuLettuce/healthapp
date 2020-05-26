@@ -57,7 +57,9 @@ body{
 }
 .green{
     background-color:#55ff55!important;
-    
+}
+.green-text{
+  color:#55ff55!important;
 }
 
 .blue {
@@ -185,6 +187,9 @@ h2{
     transition: max-height 0.2s ease-out;
     background-color: #272727;
     margin-bottom:5px;
+  }
+  .content img{
+    width:100%;
   }
 
   .green-accent {
