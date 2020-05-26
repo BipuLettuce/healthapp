@@ -51,9 +51,10 @@ body{
 
 .red{
     background-color:#ff5555!important;
-    
 }
-
+.red-text{
+  color:#ff5555!important;
+}
 .green{
     background-color:#55ff55!important;
     
@@ -62,6 +63,10 @@ body{
 .blue {
     background-color:#5555ff!important;
     
+}
+.blue-text {
+  color:#5555ff!important;
+  
 }
 .background{
 
@@ -106,11 +111,25 @@ h2{
   }
 
   #devicecorner{
-      padding:5px;
-      background:#6ba6ff;
-      float:left;
-      margin-top:0px;
+    padding:5px;
+    background:#0045ac;
+    float:left;
+    margin-top:0px;
+    border-radius:4px;
+    margin:5px;
 
+  }
+  #profilecorner{
+    padding:5px;
+    background:#0045ac;
+    float:right;
+    margin-top:0px;
+    border-radius:4px;
+    margin:5px;
+  }
+  #profilecorner h3{
+    padding:0px;
+    margin:0px;
   }
   #devicecorner p{
     padding:0px;
