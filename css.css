@@ -175,6 +175,22 @@ h2{
     box-shadow: 0px 0px 16px -5px #0f0f0f;
     
   }
+  .fixedcollapsible {
+    background-color:#272727;
+    color:white;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    margin:0px;
+   
+    box-shadow: 0px 0px 16px -5px #0f0f0f;
+    
+  }
   
   .active, .collapsible:hover {
     background-color: #555;
@@ -185,6 +201,14 @@ h2{
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    background-color: #272727;
+    margin-bottom:5px;
+  }
+  .fixedcontent {
+    padding: 0 18px;
+   
+    overflow: hidden;
+    
     background-color: #272727;
     margin-bottom:5px;
   }
