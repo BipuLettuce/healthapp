@@ -199,3 +199,34 @@ h2{
   .blue-accent{
 
   }
+
+  a{
+    text-decoration:none;
+    color:white;
+  }
+
+  .background  h1 {
+    font-size:40px!important;
+  }
+
+  #chargearea {
+    margin-top:20px;
+    float:right;
+    color:#55ff55;
+    
+    text-align:right;
+
+  }
+
+  .greenbox{
+    background-color:#55ff550a;
+    color:#55ff55;
+    border-radius:5px;
+    padding:5px;
+  }
+  #chargearea i{
+    font-size:32px;
+  }
+  #chargearea p{
+    margin:0px;
+  }

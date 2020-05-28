@@ -1,0 +1,80 @@
+<!doctype html>
+<head>
+  <link rel="stylesheet" href="css.css">
+  <link rel="script" href="js.js">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> 
+ 
+  <script src="https://kit.fontawesome.com/b1419dc8e8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <a href="index.html">
+    <div id="devicecorner">
+      <h3>Back to Summary View</h3>
+      
+      
+  </div>
+  </a>
+    <div id="profilecorner">
+      <h3>Example User</h3>
+      
+  </div>
+  <br>
+  <br>
+  <br>
+    
+    
+    
+    <div class="background"> 
+      <div id = "chargearea">
+        <div class="greenbox">
+          <i class="fas fa-battery-half"></i>
+          <p>56%</p>
+        </div>
+        
+        <p>Connected</p>
+      </div>
+      <div id="todaysgoals">
+        <h1>Username's Smart Shoes</h1>
+        
+      </div>
+      
+      <button type="button" class="blue collapsible">Colours & Customisation</button>
+      <div class="content">
+        <h3 class="">Notification Colours</h3>
+        <h3 class="">Posture and Step Colours</h3>
+        <h3 class="">Vibration and Feedback</h3>
+        
+      </div> 
+      <button type="button" class="blue collapsible">Device Settings</button>
+        
+        
+      <div class="content">
+        <h3 class="">Notification Settings</h3>
+        <h3 class="">Vibration settings</h3>
+        <h3 class="">Device Health and Performance</h3>
+      </div> 
+      
+
+
+
+        
+    </div>
+</body>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
